@@ -61,5 +61,8 @@ function Profile() {
     </div>
   );
 }
-
+export const metadata = {
+  title: `Profile Page`,
+  description: `Here is Profile Page`,
+};
 export default Profile;

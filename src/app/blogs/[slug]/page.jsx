@@ -176,5 +176,12 @@ function SingleBlog({ params }) {
     </div>
   );
 }
+export async function generateMetadata({ params }) {
+  const { slug } = params;
+  return {
+    title: `${slug} (article) Page`,
+    description: `here is ${slug} article page`,
+  };
+}
 
 export default SingleBlog;

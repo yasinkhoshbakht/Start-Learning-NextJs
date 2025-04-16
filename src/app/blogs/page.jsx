@@ -196,5 +196,9 @@ function Blogs() {
     </div>
   );
 }
+export const metadata = {
+  title: `Blogs Page`,
+  description: `Here is Blogs Page`,
+};
 
 export default Blogs;

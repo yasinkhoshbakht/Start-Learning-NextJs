@@ -38,5 +38,9 @@ function Home() {
     </div>
   );
 }
+export const metadata = {
+  title: `Home Page`,
+  description: `Here is Home Page`,
+};
 
 export default Home;
