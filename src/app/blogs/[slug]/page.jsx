@@ -177,7 +177,7 @@ function SingleBlog({ params }) {
   );
 }
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   return {
     title: `${slug} (article) Page`,
     description: `here is ${slug} article page`,

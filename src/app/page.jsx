@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 function Home() {
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 min-h-screen flex flex-col">
@@ -38,6 +39,7 @@ function Home() {
     </div>
   );
 }
+
 export const metadata = {
   title: `Home Page`,
   description: `Here is Home Page`,
